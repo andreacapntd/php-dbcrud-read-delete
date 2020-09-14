@@ -18,7 +18,8 @@
 
   DELETE
   FROM pagamenti
-  WHERE id = 8
+  WHERE pagante_id = 6 OR status LIKE 'rejected'
+
 
  ";
 
